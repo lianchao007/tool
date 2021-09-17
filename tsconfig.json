@@ -1,0 +1,9 @@
+{
+    "include": [
+        "./**/*.ts"
+    ],
+    "complierOptions": {
+        "noImplicitAny": true,
+        "target": "es2015"
+    }
+}

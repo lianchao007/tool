@@ -1,0 +1,23 @@
+{
+  "name": "tool",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/lianchao007/tool.git",
+  "author": "lianchao007 <13454782562@163.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/preset-es2015": "^7.0.0-beta.53",
+    "babel-preset-env": "^1.7.0",
+    "babelify": "^10.0.0",
+    "browserify": "^17.0.0",
+    "gulp": "^4.0.2",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "gulp-util": "^3.0.8",
+    "tsify": "^5.0.4",
+    "typescript": "^4.4.3",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0"
+  }
+}
