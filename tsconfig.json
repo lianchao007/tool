@@ -1,8 +1,13 @@
 {
     "include": [
-        "./**/*.ts"
+        "./src/**/*.ts"
     ],
-    "complierOptions": {
+    "exclude": [
+        "node_modules"
+    ],
+    "compilerOptions": {
+        "rootDir": "./src",
+        "paths": {},
         "noImplicitAny": true,
         "target": "es2015"
     }

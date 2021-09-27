@@ -32,7 +32,7 @@ gulp.task('browserify', () => {
     })
     .plugin(tsify)
     .transform('babelify', {
-        presets: ['env'],
+        presets: ['@babel/preset-env'],
         extensions: ['.ts']
     })
     .bundle()

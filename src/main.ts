@@ -1,6 +1,5 @@
-import { isObject, getType } from './tools'
+import * as tools from './tools'
 
-// isObject({})
-isObject('123')
+console.log(tools.isNumber(123))
 
-console.log(getType({}))
+console.log(tools.formatDate(Date(), 'yyyy-MM-dd hh:mm:ss'))
